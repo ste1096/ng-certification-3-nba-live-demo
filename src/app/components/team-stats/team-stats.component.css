@@ -1,0 +1,40 @@
+:host {
+  padding: 8px;
+  display: block;
+}
+span {
+  float: right;
+  cursor: pointer;
+}
+
+mark.W {
+  background-color: green;
+}
+
+mark.L {
+  background-color: red;
+}
+
+mark {
+  width: 50px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.card {
+  max-width: 100%;
+  margin: 0px;
+}
+
+.marks-container {
+  line-height: 35px;
+  word-break: break-all;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
